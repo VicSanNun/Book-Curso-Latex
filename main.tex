@@ -1,0 +1,39 @@
+\documentclass[a4paper, 12pt, openany]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\usepackage{circuitikz}
+\usepackage{pgfplots}
+
+\pgfplotsset{width=8cm, compat=1.9}
+
+
+\title{Book Curso \LaTeX}
+\author{Victor Santos Nunes}
+\date{August 2021}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+\listoffigures
+\listoftables
+\tableofcontents
+\chapter{Agradecimentos}
+\chapter{Prefácio}
+
+\mainmatter
+\chapter{Introdução}
+\input{cap_principais/intro}
+\chapter{Sistemas Lineares}
+\input{cap_principais/sist_lineares}
+
+\appendix
+\chapter{Transformada de Fourier}
+\chapter{Transformada Z}
+
+\backmatter
+\chapter{Pósfacio}
+
+\end{document}
